@@ -1,0 +1,114 @@
+body{
+  background-image: url('normalfone.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  color: #fffdfd;
+  font-family: Verdana, sans-serif;
+  font-size: 18px;
+  margin: 30px 150px
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+    margin: 0 55px;
+}
+.logo{
+  display: flex;
+
+}
+.mil{
+  font-weight: bold;
+  font-size: 29px;
+}
+.logo img{
+  width: 50px;
+  filter: brightness(0) saturate(100%) invert(96%) sepia(100%) saturate(0%) hue-rotate(319deg) brightness(106%) contrast(101%);
+float:left;
+}
+.logo-container{
+  padding-left: 10px;
+}
+
+.contacts{
+  float:right;
+
+}
+main{
+
+}
+tr{
+
+}
+  td {
+   
+    padding: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+td img{
+  max-width: 200%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.znak{
+ 
+  margin: 40px;
+  text-align: center;
+  font-size: 14px;
+}
+
+table {
+  margin: 0 auto;
+}
+.caption{
+  color: white;
+}
+.container {
+  position: relative;
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30%;
+  background-color: #f26522;
+  opacity: 0;/* Оранжевий колір з прозорістю 50% */
+}
+
+.content {
+  display:flex;
+  padding-left: 10px;
+}
+.info-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.container:hover .overlay{
+ opacity: 1;
+}
+
+.container:hover ~ .caption{
+  color: #f26522;
+}
+
+.logo:hover .caption{
+  color: #f26522;
+}
+.logo:hover img{
+  filter: brightness(0) saturate(100%) invert(57%) sepia(66%) saturate(4506%) hue-rotate(347deg) brightness(98%) contrast(94%);
+ }

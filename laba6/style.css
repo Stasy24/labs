@@ -1,0 +1,113 @@
+/* Стилі для навбару */
+.navbar {
+    background-color: black; /* Чорний фон */
+    display: flex; /* Відображає елементи в ряду */
+    justify-content: space-between; /* Рівномірне розподілення елементів по ширині */
+    align-items: center; /* Вирівнює елементи по вертикалі по центру */
+    padding: 10px 20px; /* Внутрішній відступ */
+}
+
+/* Стилі для логотипу та назви */
+.logo {
+    color: white; /* Колір тексту */
+    font-size: 20px; /* Розмір шрифту */
+}
+
+/* Стилі для посилань */
+.nav-links {
+    color: white; /* Колір тексту */
+    text-decoration: none; /* Видаляє підкреслення */
+    margin: 0 15px; /* Зовнішній відступ між посиланнями */
+}
+
+/* Стилі для картинки під пошук */
+.search-img {
+    width: 30px; /* Ширина картинки */
+    height: 30px; /* Висота картинки */
+}
+svg{
+    fill: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.parallax-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("header-bg.jpeg");
+
+    /* Set a specific height */
+    min-height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-header div{
+    color: white;
+}
+.centrelise{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news-btns-container button{
+    padding: 10px;
+    margin: 10px;
+}
+.posts-container ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.posts-container ul li{
+    padding: 10px;
+    margin: 0;
+    list-style-type: none;
+}
+.bg-parallax-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("header-bg.jpeg");
+
+    /* Set a specific height */
+    min-height: 300px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-container > *{
+    padding: 20px;
+}
+.top-rated{
+    display: grid;
+    max-width: calc(190px * 7 + 60px);
+
+    grid-auto-flow: column;
+    grid-gap: 0; /* Задаємо максимальну ширину контейнера (7 картинок по 100px з проміжками по 10px) */
+    overflow: hidden;
+}
+.top-rated img{
+    max-width: 190px; /* Задаємо максимальну ширину картинок */
+    height: auto;
+}
+.hot-news-grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+    margin: 20px auto;
+    padding: 0 100px;
+    overflow: hidden;
+}
+.hot-news-grid > div{
+    background-color: #f9f7f7;
+}

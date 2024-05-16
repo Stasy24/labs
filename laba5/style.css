@@ -1,0 +1,66 @@
+body{
+    background-color: #3a4965;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #484848
+}
+table{
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+td{
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+tr:nth-child(even) {
+    background-color: #e3e3e3;
+}
+.icon{
+    fill: #848484;
+}
+.standart{
+    background-color: #89c331;
+    color: white;
+    padding: 30px;
+}
+.ultimate{
+    background-color: #f04a56;
+    color: white;
+    padding: 30px;
+}
+.premium{
+    background-color: #20807c;
+    color: white;
+    padding: 30px;
+}
+.pricing-plan-text{
+    font-size: 30px;
+}
+.main-price{
+    font-size: 60px;
+}
+.flexible{
+    display: flex;
+
+}
+.button {
+    padding: 15px 25px; /* Розміри кнопки */
+    font-size: 20px; /* Розмір тексту */
+    border: none; /* Видаляє рамку */
+    color: white; /* Колір тексту */
+    text-align: center; /* Вирівнює текст */
+    text-decoration: none; /* Видаляє підкреслення */
+    display: inline-block; /* Змінює блочний рівень на лінійний */
+    border-radius: 8px; /* Закруглення кутів */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4), 0 2px 5px rgba(0, 0, 0, 0.2); /* Тінь */
+    transition: 0.3s; /* Плавна анімація */
+}
+
+.contact-btn{
+    background-color: #484848;
+}
+.button:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6), 0 4px 10px rgba(0, 0, 0, 0.3); /* Збільшуємо тінь при наведенні */
+    transform: translateY(-2px); /* Зміщуємо кнопку вгору при наведенні */
+}

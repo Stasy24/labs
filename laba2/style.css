@@ -1,0 +1,93 @@
+@font-face { 
+    font-family: "MyFontName";  
+    src: url("Myriad\ Pro/MYRIADPRO-REGULAR.OTF") format("opentype") 
+   
+  }
+  body{
+    font-family: "MyFontName";
+    margin: 100px;
+  }
+.logo{
+  font-size: 80px;
+}
+.logo span{
+color: #4bcaff;
+}
+.navbar{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  background-color: #35444f;
+
+  
+}
+.navbar-item{
+  padding: 20px 40px;
+}
+.navbar-item a{
+  color: #ffffff;
+
+  text-decoration: none;
+}
+.navbar-item:hover{
+  background-color: #222f3a;
+}
+main{
+  display:flex;
+  
+}
+.menu{
+  border: 1px solid #35444f;
+  list-style: none;
+  padding: 10px;
+  margin-right: 50px;
+}
+.menu-item a{
+  text-decoration: none;
+color: #000;
+}
+.menu-item{
+  padding: 10px;
+  width: 340px;
+}
+.menu-item:hover{
+  background-color: #dbdbdb;
+}
+.image-container {
+  border: 1px solid #35444f;
+  text-align: center;
+}
+.image-container img{
+  padding: 70px 0;
+}
+.text-container{
+padding: 20px;
+}
+footer{
+  background-color:#b4b7ba ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-menu{
+  
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding-left: 40px;
+}
+.item a{
+  text-decoration: none;
+  color: #000000;
+  padding-right: 29px;
+  
+}
+.item a:hover{
+text-decoration: dashed;
+color: #3181a6;
+}
+footer span{
+  padding-right: 35px;
+}
